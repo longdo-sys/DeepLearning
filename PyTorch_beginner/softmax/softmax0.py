@@ -13,7 +13,7 @@ import sys
 
 from torch import float32
 
-sys.path.append("..")  # 为了导入上层目录的d2lzh_pytorch
+sys.path.append("../..")  # 为了导入上层目录的d2lzh_pytorch
 import d2lzh_pytorch as d2l
 
 mnist_train = torchvision.datasets.FashionMNIST(root='./Datasets/', train=True, download=False,

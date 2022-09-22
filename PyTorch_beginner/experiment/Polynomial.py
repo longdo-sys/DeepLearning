@@ -5,7 +5,7 @@ import sys
 
 from torch import float32
 
-sys.path.append("..")
+sys.path.append("../..")
 import d2lzh_pytorch as d2l
 
 # 生成数据集 y=1.2x−3.4x^2+5.6x^3+5+ϵ,

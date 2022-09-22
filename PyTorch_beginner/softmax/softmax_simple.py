@@ -6,7 +6,7 @@ import torchvision
 import torchvision.transforms as transforms
 import sys
 
-sys.path.append("..")
+sys.path.append("../..")
 import d2lzh_pytorch as d2l
 
 # mnist_train = torchvision.datasets.FashionMNIST(root='./Datasets/', train=True, download=False,

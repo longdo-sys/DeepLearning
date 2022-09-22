@@ -3,7 +3,7 @@ import torch.nn as nn
 import numpy as np
 import sys
 
-sys.path.append("..")
+sys.path.append("../..")
 import d2lzh_pytorch as d2l
 
 from torch import float32
